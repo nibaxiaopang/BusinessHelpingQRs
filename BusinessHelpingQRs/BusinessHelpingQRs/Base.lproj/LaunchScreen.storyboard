@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="businesshelpingqrsicon" translatesAutoresizingMaskIntoConstraints="NO" id="iLD-Rt-bVU">
+                                <rect key="frame" x="96.666666666666686" y="326" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="BGE-cx-bnf"/>
+                                    <constraint firstAttribute="height" constant="200" id="Oxl-IM-7Xt"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_srcreen" translatesAutoresizingMaskIntoConstraints="NO" id="V5d-a7-7kW">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V5d-a7-7kW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="0nh-do-2Qk"/>
+                            <constraint firstItem="V5d-a7-7kW" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="3gX-hM-F16"/>
+                            <constraint firstAttribute="trailing" secondItem="V5d-a7-7kW" secondAttribute="trailing" id="WJe-Md-lYs"/>
+                            <constraint firstAttribute="bottom" secondItem="V5d-a7-7kW" secondAttribute="bottom" id="bKi-8N-K8V"/>
+                            <constraint firstItem="iLD-Rt-bVU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hPg-Ve-Jdu"/>
+                            <constraint firstItem="iLD-Rt-bVU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wXb-Le-su5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_srcreen" width="360" height="655"/>
+        <image name="businesshelpingqrsicon" width="340" height="339.33334350585938"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

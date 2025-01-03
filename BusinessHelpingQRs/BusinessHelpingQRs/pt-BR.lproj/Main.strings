@@ -1,0 +1,99 @@
+
+/* Class = "UIButton"; normalTitle = "Save QR Now"; ObjectID = "0XY-qN-Zzw"; */
+"0XY-qN-Zzw.normalTitle" = "Save QR Now";
+
+/* Class = "UITextField"; placeholder = "Enter Shop Address"; ObjectID = "2nx-pi-bcy"; */
+"2nx-pi-bcy.placeholder" = "Enter Shop Address";
+
+/* Class = "UIButton"; normalTitle = "Let's Create QR"; ObjectID = "4W3-fK-wsP"; */
+"4W3-fK-wsP.normalTitle" = "Let's Create QR";
+
+/* Class = "UIButton"; normalTitle = "Generate Invoice QR"; ObjectID = "5ms-Fm-ly3"; */
+"5ms-Fm-ly3.normalTitle" = "Generate Invoice QR";
+
+/* Class = "UILabel"; text = "Rate Us"; ObjectID = "9mj-Rn-71g"; */
+"9mj-Rn-71g.text" = "Rate Us";
+
+/* Class = "UITextField"; placeholder = "Enter Shop Name"; ObjectID = "Bwu-O7-Nlh"; */
+"Bwu-O7-Nlh.placeholder" = "Enter Shop Name";
+
+/* Class = "UITextField"; placeholder = "Enter Mobile Number"; ObjectID = "DMo-0Z-xwt"; */
+"DMo-0Z-xwt.placeholder" = "Enter Mobile Number";
+
+/* Class = "UITextField"; placeholder = "Enter Product Price"; ObjectID = "JkK-ZX-nTH"; */
+"JkK-ZX-nTH.placeholder" = "Enter Product Price";
+
+/* Class = "UITextField"; placeholder = "Enter Table Number"; ObjectID = "LBr-hm-Ue5"; */
+"LBr-hm-Ue5.placeholder" = "Enter Table Number";
+
+/* Class = "UITextField"; placeholder = "Enter Product Name"; ObjectID = "LJu-FZ-2T0"; */
+"LJu-FZ-2T0.placeholder" = "Enter Product Name";
+
+/* Class = "UILabel"; text = "Invoice QR"; ObjectID = "MEN-Kz-sBb"; */
+"MEN-Kz-sBb.text" = "Invoice QR";
+
+/* Class = "UILabel"; text = "Contact Details QR"; ObjectID = "PXJ-lt-1bj"; */
+"PXJ-lt-1bj.text" = "Contact Details QR";
+
+/* Class = "UILabel"; text = "Product Details QR"; ObjectID = "Sty-mr-UPO"; */
+"Sty-mr-UPO.text" = "Product Details QR";
+
+/* Class = "UITextField"; placeholder = "Enter Tax Amount"; ObjectID = "VXn-X9-5Iy"; */
+"VXn-X9-5Iy.placeholder" = "Enter Tax Amount";
+
+/* Class = "UITextField"; placeholder = "Enter Total Amount"; ObjectID = "WFz-h8-xcN"; */
+"WFz-h8-xcN.placeholder" = "Enter Total Amount";
+
+/* Class = "UIButton"; normalTitle = "Generate Contact Details QR"; ObjectID = "Z6S-DZ-90Q"; */
+"Z6S-DZ-90Q.normalTitle" = "Generate Contact Details QR";
+
+/* Class = "UIButton"; normalTitle = "Generate UPI QR"; ObjectID = "Zm8-6a-bOH"; */
+"Zm8-6a-bOH.normalTitle" = "Generate UPI QR";
+
+/* Class = "UILabel"; text = "Product Details QR"; ObjectID = "aJT-c5-DEB"; */
+"aJT-c5-DEB.text" = "Product Details QR";
+
+/* Class = "UILabel"; text = "BusinessHelpingQRs"; ObjectID = "aSV-oE-ETw"; */
+"aSV-oE-ETw.text" = "BusinessHelpingQRs";
+
+/* Class = "UILabel"; text = "Using this app you can generate helping qrs form your business."; ObjectID = "b82-fE-kS3"; */
+"b82-fE-kS3.text" = "Using this app you can generate helping qrs form your business.";
+
+/* Class = "UILabel"; text = "UPI QR"; ObjectID = "bFa-Od-VGH"; */
+"bFa-Od-VGH.text" = "UPI QR";
+
+/* Class = "UITextField"; placeholder = "Enter Product Ingredients"; ObjectID = "bIo-a1-vvc"; */
+"bIo-a1-vvc.placeholder" = "Enter Product Ingredients";
+
+/* Class = "UILabel"; text = "Contact Details QR"; ObjectID = "g9p-SA-oQc"; */
+"g9p-SA-oQc.text" = "Contact Details QR";
+
+/* Class = "UITextField"; placeholder = "Enter Your UPI"; ObjectID = "ikl-EN-FZk"; */
+"ikl-EN-FZk.placeholder" = "Enter Your UPI";
+
+/* Class = "UIButton"; normalTitle = "Share QR Now"; ObjectID = "j2f-RC-zkl"; */
+"j2f-RC-zkl.normalTitle" = "Share QR Now";
+
+/* Class = "UIButton"; normalTitle = "Generate Product Details QR"; ObjectID = "nxH-k9-qOe"; */
+"nxH-k9-qOe.normalTitle" = "Generate Product Details QR";
+
+/* Class = "UILabel"; text = "Contact Details QR"; ObjectID = "orJ-Qs-lYC"; */
+"orJ-Qs-lYC.text" = "Contact Details QR";
+
+/* Class = "UILabel"; text = "UPI QR"; ObjectID = "pI6-KV-KAF"; */
+"pI6-KV-KAF.text" = "UPI QR";
+
+/* Class = "UILabel"; text = "Invoice QR"; ObjectID = "r51-U9-d9B"; */
+"r51-U9-d9B.text" = "Invoice QR";
+
+/* Class = "UITextField"; placeholder = "Enter Email Address"; ObjectID = "uP5-ay-ymZ"; */
+"uP5-ay-ymZ.placeholder" = "Enter Email Address";
+
+/* Class = "UITextField"; placeholder = "Enter Order Amount"; ObjectID = "xK8-Qn-loA"; */
+"xK8-Qn-loA.placeholder" = "Enter Order Amount";
+
+/* Class = "UILabel"; text = "Share App Now"; ObjectID = "yOJ-gl-TIl"; */
+"yOJ-gl-TIl.text" = "Share App Now";
+
+/* Class = "UILabel"; text = "BusinessHelpingQRs"; ObjectID = "zyE-Wj-mvp"; */
+"zyE-Wj-mvp.text" = "BusinessHelpingQRs";
