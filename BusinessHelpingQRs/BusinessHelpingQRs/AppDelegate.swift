@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseMessaging
+import AppsFlyerLib
+import AppTrackingTransparency
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate , AppsFlyerLibDelegate{
 
     var window: UIWindow?
 
@@ -22,6 +26,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else {
             self.setHomeScreen()
         }
+        
+        FirebaseApp.configure()
+        
+        let appsFlyer = AppsFlyerLib.shared()
+        appsFlyer.appsFlyerDevKey = UIViewController.businessAppsFlyerDevKey()
+        appsFlyer.appleAppID = "6739531522"
+        appsFlyer.waitForATTUserAuthorization(timeoutInterval: 50)
+        appsFlyer.delegate = self
         
         return true
     }
@@ -46,6 +58,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     }
 
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        Messaging.messaging().apnsToken = deviceToken
+    }
+    
+    /// AppsFlyerLibDelegate
+    func onConversionDataSuccess(_ conversionInfo: [AnyHashable : Any]) {
+        print("success appsflyer")
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        print("error appsflyer")
+    }
 
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        AppsFlyerLib.shared().start()
+        
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.5) {
+            if #available(iOS 14, *) {
+                ATTrackingManager.requestTrackingAuthorization { status in
+                }
+            }
+        }
+    }
 }
 

@@ -93,6 +93,9 @@
                             <constraint firstItem="atZ-HC-5NB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yzg-PX-rix"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="letsCreatButton" destination="4W3-fK-wsP" id="eze-cs-ClT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -569,6 +572,9 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="bb"/>
+                                <connections>
+                                    <action selector="btnBack:" destination="fUY-xc-3Po" eventType="touchUpInside" id="U8A-ZS-hnA"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="MsP-6V-STY">
                                 <rect key="frame" x="150" y="264" width="20" height="20"/>
@@ -588,6 +594,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mwZ-4e-N0h"/>
+                    <connections>
+                        <outlet property="backButton" destination="7Rm-z1-9KG" id="Ar6-sE-BOn"/>
+                        <outlet property="bottomCos" destination="kND-sp-icS" id="w2z-bq-o9r"/>
+                        <outlet property="indicatorView" destination="MsP-6V-STY" id="JcU-2b-iG1"/>
+                        <outlet property="topCos" destination="l3g-jw-TCO" id="kiE-mi-KS8"/>
+                        <outlet property="webView" destination="PKe-LO-9bx" id="oz4-mS-CeG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ztd-r4-RHK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
